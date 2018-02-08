@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Email from './Email'; 
 
 
 class App extends Component {
@@ -37,7 +38,7 @@ class App extends Component {
         <h1>{this.state.count}</h1>
         <button className='btn btn-primary' onClick={this.reset}>Reset </button>
         <input type="number" className='form-control' onChange={this.handleValueChange} value={this.state.value}/>
-        
+        <Email />
       </div>
      
     );
