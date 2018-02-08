@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Email from './Email'; 
+import LoginForm from './LoginForm';
 
 
 class App extends Component {
