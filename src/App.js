@@ -31,11 +31,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
+        <div className='form-group'></div>
+        <button className='btn btn-primary' onClick={this.increment}>+</button>
+        <button className='btn btn-primary' onClick={this.decrement}>-</button>
         <h1>{this.state.count}</h1>
-        <button onClick={this.reset}>Reset </button>
-        <input type="number" onChange={this.handleValueChange} value={this.state.value}/>
+        <button className='btn btn-primary' onClick={this.reset}>Reset </button>
+        <input type="number" className='form-control' onChange={this.handleValueChange} value={this.state.value}/>
         
       </div>
      
