@@ -40,6 +40,7 @@ class App extends Component {
         <button className='btn btn-primary' onClick={this.reset}>Reset </button>
         <input type="number" className='form-control' onChange={this.handleValueChange} value={this.state.value}/>
         <Email />
+        <LoginForm />
       </div>
      
     );
